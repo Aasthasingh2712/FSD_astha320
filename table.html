@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,th,td { 
+
+          border:1px solid black }
+
+          
+          th,td{
+            border:1px solid black;
+             border-radius: 15px;
+            border-style: dashed;
+            padding: 50px;
+            text-align: center;
+         }
+            td:nth-child(even)
+            {
+                background-color: rgba(0, 128, 256 ,0.8);
+                color: gold;
+            }
+            td.hover {
+                background-color: blueviolet;
+            }
+    </style>
+</head>
+
+<body>
+    <table
+        style="width:150px">
+        <caption> Student Details </caption>
+        <colgroup>
+        <col span="1" style="background-color: blueviolet;">
+    
+    
+     </colgroup>
+        <tr> 
+            
+             <th colspan="2">Name </th>
+                <th>Roll no.</th>
+
+        </tr>
+        <tr>
+<td>1.</td>
+            <td>Aastha Singh</td>
+            <td>46</td>
+        </tr>
+
+
+
+
+
+    </table>
+</body>
+</html>
